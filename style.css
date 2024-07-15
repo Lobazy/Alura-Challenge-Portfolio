@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite FR Moderne", cursive;
+  
+  
+  }
+  
+  body {
+    background-color: pink;
+    height: 100vh;
+  
+  }
+  
+  .interface {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  
+  /* Cabeçalho */
+  
+  
+  /* ajuda da luri */
+  
+  .principal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  /* Fim Luri */
+  
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #b04bf3;
+  }
+  
+  .principal-content p {
+    text-align: center;
+    font-size: 18px;
+    color: #000000;
+    line-height: 30px;
+    margin: 0px 0px;
+    align-items: center;
+    margin-top: 0px;
+    /* Texto Principal */
+  }
+  
+  .principal-content h1 {
+    font-size: 40px;
+    color: #000000;
+    /* Cor do título principal */
+  
+  }
+  
+  .principal-content h1 span {
+    color: #b04bf3;
+  }
+  
+  header {
+    padding: 40px 4%;
+  }
+  
+  header {
+    padding: 40px 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  
+  header a {
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  header a:hover {
+    color: white;
+    transform: scale(1.05);
+  }
+  
+  
+  /* Codigo abaixo Luri me ajudou */
+  
+  header nav ul li {
+    list-style: none;
+  }
+  
+  /* Fim Codigo Luri */
+  
+  header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+  }
+  
+  header .btn-contato button {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 500px;
+    border: 0;
+    cursor: pointer;
+    background-color: pink;
+    border-radius: 50%;
+  }
+  
+  header .btn-contato:hover button {
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px #ff007f;
+  
+  
+  }
+  
+  /* Parte Principal */
+  
+  section.principal {
+    padding: 40px 4%;
+  
+  }
+  
+  section.principal.flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+  }
+  
+  /* Seção Skills */
+  
+  section.Skills {
+    padding: 40px 4%;
+  
+  }
+  
+  section.Skills .flex {
+    gap: 20px;
+  }
+  
+  section.Skills .skillsbox {
+    color: #000000;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 25px;
+    transition: 1s;
+  
+  }
+  
+  section.Skills .skillsbox:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ff007f;
+  }
+  
+  section.Skills .skillsbox h3 {
+    font-size: 20px;
+  }
+  
+  section.Skills .skillsbox i {
+    font-size: 48px;
+    color: #b04bf3;
+  
+  
+  }
+  
+  /* Sobre Mim */
+  section.SobreMim {
+    padding: 40px 4%;
+  }
+  
+  
+  .SobreMim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .interface {
+    text-align: center;
+  }
+  
+  .SobreMim h2 span {
+    color: #b04bf3;
+  }
+  
+  /* Formação */
+  
+  section.Formação {
+    padding: 40px 4%;
+  
+  }
+  
+  section.Formação .flex {
+    gap: 20px;
+  }
+  
+  section.Formação .formaçãobox{
+    color: #000000;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 25px;
+    transition: 1s;
+  
+  }
+  
+  section.Formação .formaçãobox:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ff007f;
+  }
+  
+  section.Formação .formaçãobox h3 {
+    font-size: 20px;
+  }
+  
+  section.Formação .formaçãobox i {
+    font-size: 48px;
+    color: #b04bf3;
+  }
+  
+  
+  /* Contato */
+  
+  section.Contato {
+    padding: 80px 4%;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    background-color: #ffffffd3;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #000000;
+  }
+  
+  form textarea {
+    resize: none;
+    max-height: 150px;
+  }
+  
+  form .btenviar {
+    margin-top: 20px;
+  }
+  
+  form .btenviar input {
+    width: 120px;
+    background-color: #b04bf3;
+    color: #000000;
+    font-weight: 700;
+    cursor: pointer;
+  
+  
+  }
+  
+  form .btenviar input:hover {
+    box-shadow: 0 0 8px;
+    transform: scale(1.05);
+    color: pink;
+  }
+  
+  footer {
+    background-color: pink;
+    color: #000000;
+    padding: 40px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .social-icons a {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Responsivo */
+  /* Estilos gerais */
+  
+  @media screen and (max-width: 1020px) {
+    .flex {
+      flex-direction: column;
+    }
+  
+    /* Cabeçalho */
+    .menu-desktop,
+    .btn-contato {
+      display: none;
+    }
+  
+    /* Título */
+    .principal-content h1 {
+      font-size: 30px;
+    }
+  
+    /* Imagem de perfil */
+    .principal-content .profile-image {
+      max-width: 200px;
+    }
+  
+    /* Seções */
+    .principal {
+      padding: 40px 10%;
+    }
+  
+    section.Skills {
+      padding: 40px 10%;
+    }
+  
+    section.SobreMim {
+      padding: 40px 10%;
+    }
+  
+    section.Formação {
+      padding: 40px 10%;
+    }
+  
+    /* Tamanho da fonte */
+    .principal-content p {
+      font-size: 16px;
+    }
+  
+    .skillsbox h3 {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+  }
+  
+  @media screen and (max-width: 480px) {
+  
+  }
+  
+  /* Estilos do footer */
+  footer {
+    background-color: pink;
+    color: black;
+    padding: 40px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .social-icons a {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Estilos responsivos do footer */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-section {
+      flex-basis: auto;
+      text-align: center;
+    }
+  
+    .social-icons {
+      margin-top: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    footer {
+      padding: 20px 0;
+    }
+  
+    .footer-section {
+      margin-bottom: 15px;
+    }
+  
+    .social-icons a {
+      font-size: 20px;
+      margin-right: 8px;
+    }
+  }
